@@ -4,12 +4,12 @@
 
 In this project, I defined and trained a DCGAN on a dataset of faces. The goal is to get a generator network to generate new images of faces that look as realistic as possible!
 
-##### Get the Data
+#### Get the Data
 
 I have used the [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) to train the adversarial networks.
 
 
-##### Pre-processed Data
+#### Pre-processed Data
 
 Each of the CelebA images has been cropped to remove parts of the image that don't include a face, then resized down to 64x64x3 NumPy images. Some sample data is show below.
 
@@ -20,9 +20,9 @@ Each of the CelebA images has been cropped to remove parts of the image that don
 This is a zip file that you'll need to extract in the home directory of this notebook for further loading and processing. After extracting the data, you should be left with a directory of data `processed_celeba_small/`
 
 
-#### Network Architecture
+### Network Architecture
 
-The architecture used for the generator and the discriminator was inspired by the the [original DCGAN paper](https://arxiv.org/pdf/1511.06434.pdf):
+The architecture used for the generator and the discriminator was inspired by the [original DCGAN paper](https://arxiv.org/pdf/1511.06434.pdf):
 
 <img src="assets/Generator.png" alt="Network-architecture" width="620"/>
 
@@ -34,7 +34,7 @@ The loss functions was inspired by LSGAN paper.
 Finally the last layer of the discriminator was inspired by patchGAN. PatchGAN has fewer parameters, runs faster and classifies images as fake or real.
 You can check about patchGAN in this paper: [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.04076.pdf).
 
-#### Results
+### Results
 
 You can see the value for losses below: 
 
