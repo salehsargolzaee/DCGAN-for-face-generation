@@ -1,4 +1,4 @@
-<h1 align="center">LSTM-for-Sentiment-Analysis</h1>
+<h1 align="center">Generate Faces Using Deep Convolutional Generative Adversarial Networks (DCGAN)</h1>
 
 ## About the project
 
