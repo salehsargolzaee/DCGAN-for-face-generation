@@ -32,7 +32,7 @@ The loss functions was inspired by LSGAN paper.
 > Binary cross entropy loss function may lead to the vanishing gradients problem during the learning process. To overcome such a problem, I've used a least squares loss function for the discriminator. This structure is also referred to as a least squares GAN or LSGAN, and you can [read the original paper on LSGANs, here](https://arxiv.org/pdf/1611.04076.pdf). The authors show that LSGANs are able to generate higher quality images than regular GANs and that this loss type is a bit more stable during training!
 
 Finally the last layer of the discriminator was inspired by patchGAN. PatchGAN has fewer parameters, runs faster and classifies images as fake or real.
-You can check about patchGAN in this paper: [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.04076.pdf).
+You can check about patchGAN in this paper: [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004.pdf).
 
 ### Results
 
